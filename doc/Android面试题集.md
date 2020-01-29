@@ -49,6 +49,9 @@ Service生命周期：
 5. BroadcastReceiver所在消息队列拿到此广播后，回调它的onReceive()方法。
 
 ### 广播传输的数据是否有限制，是多少，为什么要限制？
+1. 广播是通过Intent携带需要传递的数据的
+2. Intent是通过Binder机制实现的
+3. Binder对数据大小有限制，不同room不一样，一般为1M
 
 ### ContentProvider、ContentResolver与ContentObserver之间的关系是什么？
 
@@ -79,7 +82,7 @@ protected void onCreate(@Nullable Bundle savedInstanceState) {
 
 Intent传递数据大小的限制大概在1M左右，超过这个限制就会静默崩溃。处理方式如下：
 
-- 进程内：EventBus，文件缓存、磁盘缓存。
+- 进程内：文件缓存、磁盘缓存。
 - 进程间：通过ContentProvider进行款进程数据共享和传递。
 
 ### 描述一下Android的事件分发机制？
@@ -280,7 +283,6 @@ Activity与Fragment生命周期如下所示：
 ### Activity的通信方式有哪些？
 
 - startActivityForResult
-- EventBus
 - LocalBroadcastReceiver
 
 ### Android应用里有几种Context对象，

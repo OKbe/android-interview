@@ -45,6 +45,20 @@
 
 <img src="https://github.com/BeesAndroid/BeesAndroid/raw/master/art/wechat.png" width="300"/>
 
+网页浏览记录
+
+[阿里、腾讯、百度、华为、京东、搜狗和滴滴最新面试题汇集](https://mp.weixin.qq.com/s?__biz=MzIyMjQ0MTU0NA==&mid=2247484617&idx=1&sn=3734e643d241ac9615424dd44462ee2d&chksm=e82c3deedf5bb4f82e7be0823739774a0a2cf8372284c8409471c2752fea1f367ca3f6857795&mpshare=1&scene=23&srcid=1128DKotEvTe4dheaTextbqp#rd)
+
+[2017下半年，一二线互联网公司Android面试题汇总](https://zhuanlan.zhihu.com/p/30016683)
+
+[2017 年初、阿里、腾讯、百度、华为、京东、搜狗和滴滴面试题汇集（更新篇）](https://zhuanlan.zhihu.com/p/26327485)
+
+[android_interview](https://github.com/LRH1993/android_interview)
+
+[AndroidInterview-Q-A](https://github.com/JackyAndroid/AndroidInterview-Q-A)
+
+[CommonDevKnowledge](https://github.com/AweiLoveAndroid/CommonDevKnowledge)
+
 ## 开源协议
 
 ```
